@@ -23,6 +23,7 @@ declare namespace moment {
   }
 
   interface MomentLanguageData extends BaseMomentLanguage {
+    
     // From 2.8.1 onward
     locale(): string;
     locale(loc: string): string;
